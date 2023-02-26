@@ -86,13 +86,42 @@ p {
   align-items: center;
 }
 
-.counter-minus, .counter-plus{
+.counter-minus,
+.counter-plus {
   border: 0;
   flex-grow: 1;
   padding: 10px 0;
 }
 
-.counter-result { 
+.counter-result {
   flex-grow: 1;
   text-align: center;
+}
+
+/* TotalAmount */
+.total {
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.totalFirst {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.totalFirst img {
+  margin-left: 3px;
+}
+
+.totalSecond-text {
+  color: #999999;
+}
+
+.totalSecond-amount {
+  color: #6B90DC;
+  font-weight: 700;
+  font-size: 22px;
 }
