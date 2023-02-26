@@ -26,7 +26,7 @@ const Counter = () => {
     <div className='total'>
     <div className='totalFirst'>
       <span>총 상품 금액</span>
-      <img src="assets/ExpandImg.svg" alt="" />
+      <img src="assets/ExpandImg.svg" alt="툴팁 이미지"/>
     </div>
     <div className='totlaSecond'>
       <span className='totalSecond-text'>총 수량 </span>
