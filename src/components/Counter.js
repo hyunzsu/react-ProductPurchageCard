@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 
 const Counter = () => {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(1)
+  const [amount, setAmount] = useState(6370)
 
   const onIncrease = () => {
       setCount(count + 1);
+      setAmount(amount * (count + 1))
   };
 
   const onDecrease = () => {
-    if (count > 0) {
+    if (count >= 1) {
       setCount(count - 1);
+      setAmount(amount / (count - 1))
     }
   };
 
@@ -27,10 +30,10 @@ const Counter = () => {
     </div>
     <div className='totlaSecond'>
       <span className='totalSecond-text'>총 수량 </span>
-      <span className='totalSecond-number'>1</span>
+      <span className='totalSecond-number' onClick={onIncrease}>{count}</span>
       <span className='totalSecond-text'>개</span>
       <span className='line'>|</span>
-      <span className='totalSecond-amount'>6,370</span>
+      <span className='totalSecond-amount'>{amount}</span>
       <span className='totalSecond-amount'>원</span>
     </div>
   </div>
