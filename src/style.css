@@ -10,17 +10,20 @@ p {
   padding: 16px;
 }
 
+/* PriceDiscount */
 .discount {
-  position: relative;
   display: flex;
+  position: relative;
   flex-flow: row nowrap;
   justify-content: space-between;
+  border-bottom: 1px solid #dee0e3;
+  padding-bottom: 16px;
 }
 
 .discount-percent {
+  color: #6b90dc;
   font-size: 24px;
   font-weight: 700;
-  color: #6b90dc;
 }
 
 .discount-all {
@@ -38,3 +41,31 @@ p {
   margin-right: 8px;
 }
 
+.discount-move {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* Delivery */
+.delivery {
+  padding-top: 16px;
+  border-bottom: 1px solid #dee0e3;
+  padding-bottom: 16px;
+}
+
+.line {
+  margin: 0 6px;
+  color: #dee0e3;
+}
+
+.delivery-text {
+  font-weight: 700;
+  color: #6b90dc;
+  margin-left: 6px;
+}
+
+.delivery div {
+  color: #999999;
+  margin-top: 8px;
+  font-size: 14px;
+}
