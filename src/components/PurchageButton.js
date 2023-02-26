@@ -1,11 +1,12 @@
 import React from 'react';
 
 const PurchageButton = () => {
+
   return (
     <div className='purchage'>
-      <img src="assets/State-normal.png" alt="" />
+      <div className='purchage-click'>구매하기</div>
     </div>
-  )
-}
+  );
+};
 
 export default PurchageButton;

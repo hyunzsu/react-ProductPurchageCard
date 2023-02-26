@@ -125,13 +125,43 @@ p {
 }
 
 .totalSecond-amount {
-  color: #6B90DC;
+  color: #6b90dc;
   font-weight: 700;
   font-size: 22px;
 }
 
 /* PurchageButton */
-.purchage img {
+/* .purchage img {
   width: 328px;
   height: 48px;
+} */
+.purchage {
+  width: 328px;
+  height: 48px;
+  background: #03c75a;
+  border-radius: 6px;
+}
+
+.purchage:hover {
+  background-color: #0AAE4F;
+}
+
+.purchage-click {
+  display: flex;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 10px;
+}
+
+.purchage-click::before {
+  display: block;
+  width: 28px;
+  height: 28px;
+  background: url(./../public/assets/naver.svg);
+  content: '';
 }
