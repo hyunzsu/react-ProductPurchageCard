@@ -8,7 +8,9 @@ const TotalAmount = () => {
         <img src="assets/ExpandImg.svg" alt="" />
       </div>
       <div className='totlaSecond'>
-        <span className='totalSecond-text'>총 수량 1개</span>
+        <span className='totalSecond-text'>총 수량 </span>
+        <span className='totalSecond-text'>1</span>
+        <span className='totalSecond-text'>개</span>
         <span className='line'>|</span>
         <span className='totalSecond-amount'>6,370</span>
         <span className='totalSecond-amount'>원</span>
