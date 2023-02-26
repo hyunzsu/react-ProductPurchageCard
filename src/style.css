@@ -31,7 +31,6 @@ p {
 .discount-all {
   display: flex;
   align-items: center;
-  padding-right: 30px;
 }
 
 .discount-real {
@@ -133,10 +132,6 @@ p {
 }
 
 /* PurchageButton */
-/* .purchage img {
-  width: 328px;
-  height: 48px;
-} */
 .purchage {
   width: 328px;
   height: 48px;
@@ -145,7 +140,7 @@ p {
 }
 
 .purchage:hover {
-  background-color: #0AAE4F;
+  background-color: #0aae4f;
 }
 
 .purchage-click {
