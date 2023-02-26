@@ -72,8 +72,7 @@ p {
 
 /* Counter */
 .counter {
-  padding: 16px 0;
-  border-bottom: 1px solid #dee0e3;
+  padding-top: 16px;
 }
 
 .counter-button {
@@ -84,26 +83,27 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 16px;
 }
 
 .counter-minus,
 .counter-plus {
+  padding: 10px 0;
   border: 0;
   flex-grow: 1;
-  padding: 10px 0;
 }
 
 .counter-result {
-  flex-grow: 1;
   text-align: center;
+  flex-grow: 1;
 }
 
-/* TotalAmount */
 .total {
-  padding: 16px 0;
   display: flex;
+  padding: 16px 0;
   justify-content: space-between;
   margin-right: 30px;
+  border-top: 1px solid #dee0e3;
 }
 
 .totalFirst {

@@ -4,11 +4,13 @@ const Counter = () => {
   const [count, setCount] = useState(0)
 
   const onIncrease = () => {
-    setCount(count + 1);
+      setCount(count + 1);
   };
 
   const onDecrease = () => {
-    setCount(count - 1);
+    if (count > 0) {
+      setCount(count - 1);
+    }
   };
 
   return (
@@ -18,6 +20,20 @@ const Counter = () => {
         <span className='counter-result'>{count}</span>
         <button className='counter-plus' onClick={onIncrease}>+</button>
       </div>
+    <div className='total'>
+    <div className='totalFirst'>
+      <span>총 상품 금액</span>
+      <img src="assets/ExpandImg.svg" alt="" />
+    </div>
+    <div className='totlaSecond'>
+      <span className='totalSecond-text'>총 수량 </span>
+      <span className='totalSecond-number'>1</span>
+      <span className='totalSecond-text'>개</span>
+      <span className='line'>|</span>
+      <span className='totalSecond-amount'>6,370</span>
+      <span className='totalSecond-amount'>원</span>
+    </div>
+  </div>
     </div>
   )
 }

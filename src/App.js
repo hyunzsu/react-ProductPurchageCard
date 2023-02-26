@@ -5,7 +5,6 @@ import {
   PriceDiscount,
   Delivery,
   Counter,
-  TotalAmount,
   PurchageButton,
 } from './components/index';
 
@@ -16,7 +15,6 @@ export default function App() {
       <PriceDiscount />
       <Delivery />
       <Counter />
-      <TotalAmount />
       <PurchageButton />
     </div>
   );
