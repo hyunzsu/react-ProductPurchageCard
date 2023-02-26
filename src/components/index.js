@@ -3,3 +3,4 @@ export { default as PriceDiscount } from './PriceDiscount';
 export { default as Delivery } from './Delivery';
 export { default as Counter } from './Counter';
 export { default as TotalAmount } from './TotalAmount';
+export { default as PurchageButton } from './PurchageButton';

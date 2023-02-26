@@ -6,6 +6,7 @@ import {
   Delivery,
   Counter,
   TotalAmount,
+  PurchageButton,
 } from './components/index';
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
       <Delivery />
       <Counter />
       <TotalAmount />
+      <PurchageButton />
     </div>
   );
 }
