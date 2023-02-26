@@ -19,6 +19,7 @@ p {
   justify-content: space-between;
   border-bottom: 1px solid #dee0e3;
   padding-bottom: 16px;
+  width: 330px;
 }
 
 .discount-percent {
@@ -51,6 +52,7 @@ p {
 .delivery {
   padding: 16px 0;
   border-bottom: 1px solid #dee0e3;
+  width: 330px;
 }
 
 .line {

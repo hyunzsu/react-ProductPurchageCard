@@ -6,13 +6,13 @@ const Counter = () => {
 
   const onIncrease = () => {
       setCount(count + 1);
-      setAmount(amount * (count + 1))
+      setAmount(6370 * (count + 1))
   };
 
   const onDecrease = () => {
     if (count >= 1) {
       setCount(count - 1);
-      setAmount(amount / (count - 1))
+      setAmount(6370 * (count - 1))
     }
   };
 
