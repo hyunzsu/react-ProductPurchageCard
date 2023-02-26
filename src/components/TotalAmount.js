@@ -9,7 +9,7 @@ const TotalAmount = () => {
       </div>
       <div className='totlaSecond'>
         <span className='totalSecond-text'>총 수량 </span>
-        <span className='totalSecond-text'>1</span>
+        <span className='totalSecond-number'>1</span>
         <span className='totalSecond-text'>개</span>
         <span className='line'>|</span>
         <span className='totalSecond-amount'>6,370</span>
